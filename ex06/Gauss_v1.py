@@ -6,7 +6,7 @@ Comme tout bon instituteur qui se respecte !\n"""
 
 text2 = "Mangez une pomme c'est bon pour la santé ...\n\n"
 
-text3 = "Très écoutez attentivement la suite.\n"
+text3 = "Très écoutez attentivement la suite.\n\n"
 
 text8 = """L'instituteur posa le problème suivant :\n
 Que vaut la somme de tous les nombre de 1 à 100 ?\n
@@ -26,7 +26,6 @@ text7 = """Elle est loin l'époque ou l'on pouvait mettre des fessées ...
 repl process died unexpectdetly: exit status 1"""
 
 
-
 question_1 = input("Bonjour, connaissez vous la lègende du petit Gauss ?\n\nOui / Non\n\n")
 
 if(question_1 == "Oui" or question_1 == "oui"):
@@ -40,11 +39,7 @@ if(question_1 == "Oui" or question_1 == "oui"):
         print(text3 + text8)
     
     elif(question_2 == "Nan" or question_2 == "nan"):
-        print(text8)
-    
-    elif(question_2 == "Nan" or question_2 == "nan"):
-        print(text8)
-
+        print(text4 + "\n\n" + text8)
 
 elif(question_1 == "Non" or question_1 == "non"):
     print("Google est vôtre ami, ou demandez à Igor.\n" + text1)
@@ -57,13 +52,10 @@ elif(question_1 == "Non" or question_1 == "non"):
         print(text3 + text8)
 
     elif(question_2 == "Nan" or question_2 == "nan"):
-        print(text8)
-    
-    elif(question_2 == "Nan" or question_2 == "nan"):
-        print(text8)
+        print(text4 + "\n\n" + text8)
 
 elif(question_1 == "Jmenfou" or question_1 == "jmenfou"):
-    print(text4 + "\n\n" + text1 + "\n")
+    print(text4 + "\n\n" + text1)
     question_2 = input("Cela vous offusque ?\n\nOui / Non\n")
 
     if(question_2 == "Oui" or question_2 == "oui"):
@@ -76,5 +68,5 @@ elif(question_1 == "Jmenfou" or question_1 == "jmenfou"):
         print(text4 + text5 + "\033[31m" + text6 + "\033[1m")
     
     elif(question_2 == "Nan" or question_2 == "nan"):
-        print(text8)
+        print(text4 + "\n\n" + text8)
 
