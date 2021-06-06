@@ -1,0 +1,1 @@
+awk -F "|" '{print$7}' nz_liberia_diplomats.csv > ssh_infected_keys.txt
